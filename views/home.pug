@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+      include ../static/style.css
+
+block content
+    section#introSection 
+        div Welcome to Krishna Dance Academy 
+        div.small Dance is the hidden language of the soul
+
+    section#missionSection
+        h2 Our Mission 
+        div.card 
+            div#logo1 
+                h3 Dance Perfection
+                img(src="/static/img/logo1.png",alt="not displayed",class="logo1")
+                span#l1  Any Body can Dance.
+        div.card 
+            div#logo2 
+                h3 Dance as You like
+                img(src="/static/img/logo2.png",alt="not displayed",class="logo2") 
+                span#l2 KDA will help you to recognize your actual aim.
+        div.card 
+            div#logo3
+                h3 Expert Teaching
+                img(src="/static/img/logo3.png",alt="not displayed",class="logo3")
+                span#l3 KDA is the medium that help you to grow your talent.
+
+
+    section#sponsorsSection 
+        h2#spon Our Sponsors
+        div#sponsor
+            img(src="/static/img/flipkart.png" ,alt="Sponsor Image",class="spImage" )
+            img(src="/static/img/amazon.png" ,alt="Sponsor Image",class="spImage" )
+            img(src="/static/img/patanjali.png" ,alt="Sponsor Image",class="spImage" )
+            img(src="/static/img/cadbury.png" ,alt="Sponsor Image",class="spImage" )

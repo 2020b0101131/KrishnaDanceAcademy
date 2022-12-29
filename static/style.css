@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.logoImage {
+    height: 24px;
+    display: flex;
+}
+
+#logo {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#navbar {
+    background-color: black;
+    padding: 15px 5px;
+    font-family: 'Playfair Display', serif;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -14px;
+    padding-left: 8px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 4px 29px;
+    color: white;
+    font-weight: bold;
+}
+
+#navbar li a :hover {
+    color: black;
+}
+
+#introSection {
+    height: 300px;
+    background-color: red;
+    background: center /cover no-repeat url("/static/bg.jpg");
+    background-size: 1316px 311px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    padding-right: 587px;
+    padding-bottom: 35px;
+}
+
+#introSection div.small {
+    font-size: 27px;
+}
+
+#missionSection {
+    margin: auto;
+    padding-top: 10px;
+    margin: -18px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 12px;
+    margin-bottom: -28px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 325px;
+    margin: 47px 50px;
+    height: 145px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+#l1 {
+    float: right;
+    padding-left: 39px;
+    padding-right: 48px;
+    padding-top: 37px;
+}
+
+#l2 {
+    /* width: auto;
+    float: inline-end;
+    margin-top: -86px;
+    margin-left: 116px; */
+    position: absolute;
+    text-align: revert;
+    width: 100px;
+    margin-left: -13%;
+    padding-top: 16px;
+}
+
+#l3 {
+    float: right;
+    padding-left: 109px;
+    padding-top: 48px;
+    margin-top: -129px;
+}
+
+#sponsorsSection {
+    height: 266px;
+    background-color: #0a0909b0;
+    padding-top: 26px;
+}
+
+#sponsor {
+    margin: auto;
+    padding: 5px;
+    height: 5px;
+    text-align: center;
+}
+
+.logo1 {
+    height: 109px;
+    display: inline;
+    filter: brightness(3);
+}
+
+.logo2 {
+    height: 109px;
+    display: inline;
+    filter: brightness(1);
+    padding-right: 201px;
+}
+
+.logo3 {
+    height: 109px;
+    display: inline;
+    filter: brightness(3);
+    padding-right: 205px;
+}
+
+.spImage {
+    padding: 5x;
+    height: 5px;
+    height: 182px;
+    filter: contrast(2);
+    margin-top: 23px;
+}
+
+#footer {
+    height: 56px;
+    background-color: black;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    padding: 19px;
+}
+
+#spon {
+    text-align: center;
+    margin-top: -27px;
+    color: white;
+    position: absolute;
+    margin-left: 45%;
+}
