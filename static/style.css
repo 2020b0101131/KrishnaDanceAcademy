@@ -48,7 +48,7 @@
     height: 300px;
     background-color: red;
     background: center /cover no-repeat url("/static/bg.jpg");
-    background-size: 1440px 311px;
+    background-size: 1440 1316px 311px;
     color: white;
     align-items: center;
     justify-content: center;
@@ -64,10 +64,9 @@
 }
 
 #missionSection {
-    /* margin: auto;
+    margin: auto;
     padding-top: 10px;
-    margin: -18px; */
-    text-align: center;
+    margin: -18px;
 }
 
 h2 {
@@ -147,6 +146,11 @@ h2 {
 }
 
 .spImage {
+    /* padding: 5x;
+    height: 5px;
+    height: 182px;
+    filter: contrast(2);
+    margin-top: 23px; */
     padding: 5x;
     height: 5px;
     height: 182px;
