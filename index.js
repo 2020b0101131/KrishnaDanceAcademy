@@ -49,9 +49,9 @@ app.get('/contact', (req, res) => {
 app.post('/contact', (req, res) => {
     var myData = new Contact(req.body);
     myData.save().then(() => {
-        res.send("This item has been saved to the database")
+        res.send("This item has been saved to the Database")
     }).catch(() => {
-        res.status(400).send("item was not saved to the databse")
+        res.status(400).send("Thank You for Contacting Us")
     })
 });
 
