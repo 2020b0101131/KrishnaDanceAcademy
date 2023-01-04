@@ -1,0 +1,22 @@
+#list {
+    text-align: center;
+    margin-top: 36px;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 14px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+h2 {
+    font-family: cursive;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 16px;
+    margin-bottom: -36px;
+    font-weight: unset;
+}
