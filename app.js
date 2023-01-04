@@ -1,6 +1,14 @@
 const express = require("express");
-const path = require("path");
 const app = express();
+const PORT = process.env.PORT || 3030;
+
+// your code
+
+
+//////////////////////
+// const express = require("express");
+const path = require("path");
+// const app = express();
 const mongoose = require('mongoose');
 const bodyparser = require("body-parser");
 //mongoose.connect('mongodb://localhost/contactDance');
@@ -51,6 +59,9 @@ app.post('/contact', (req, res) => {
 });
 
 // START THE SERVER
-app.listen(port, () => {
-    console.log(`The application started successfully on port ${port}`);
+app.listen(PORT, () => {
+    console.log(`server started on port ${PORT}`);
 });
+// app.listen(port, () => {
+//     console.log(`The application started successfully on port ${port}`);
+// });
