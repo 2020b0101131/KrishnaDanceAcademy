@@ -272,9 +272,9 @@
                     margin-left: 8rem;
                 }
                 #introSection {
-                    height: 27rem;
+                    height: 66rem;
                     width: 49rem;
-                    background: center /cover no-repeat url(/static/bg.jpg);
+                    background: center /cover no-repeat url(/static/bg2.jpg);
                     color: white;
                     align-items: center;
                     justify-content: center;
@@ -285,14 +285,17 @@
                     padding-bottom: 35px;
                 }
                 .big {
-                    font-size: 59px;
+                    font-size: 69px;
                     text-align: center;
-                    margin-left: 17rem;
-                    width: 355px;
+                    margin-left: 35rem;
+                    /* width: 355px; */
                     font-family: fantasy;
+                    margin-top: 45rem;
+                    width: 26rem;
                 }
                 #introSection div.small {
-                    padding-left: 15rem;
+                    padding-left: 35rem;
+                    width: 62rem;
                 }
                 h2#mission {
                     /* text-align: center; */
@@ -305,7 +308,8 @@
                 }
                 .card {
                     width: 45rem;
-                    height: 13rem;
+                    height: 15rem;
+                    margin-bottom: 85px;
                     border: 6px solid black;
                 }
                 h3 {
