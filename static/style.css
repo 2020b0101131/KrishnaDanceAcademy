@@ -353,11 +353,11 @@
                     margin-top: -15px;
                 }
                 #sponsorsSection {
-                    height: 18rem;
+                    height: 63rem;
                     width: 49rem;
                 }
                 #spon {
-                    font-size: 3rem;
+                    font-size: 4rem;
                     margin-left: 13rem;
                     width: 21rem;
                     margin-top: -40px;
@@ -368,5 +368,11 @@
                 }
                 h5 {
                     font-size: 23px;
+                }
+                #sp1 {
+                    margin-top: 132px;
+                }
+                .spImage {
+                    width: 83%;
                 }
             }
