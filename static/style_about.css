@@ -18,7 +18,7 @@ h1 {
 }
 
 @media only screen and (max-width: 425px) {
-    #navbar ul {
+    /* #navbar ul {
         display: flex;
         flex-direction: column;
         margin-bottom: -14px;
@@ -27,16 +27,13 @@ h1 {
         border: 3px solid white;
         border-width: 6px;
         width: 23rem;
-    }
-    .logoImage {
-        /* height: 24px; */
+    } */
+    /* .logoImage {
         display: flex;
-        /* flex-direction: row; */
-        /* font-size: 76px; */
         width: 6rem;
         height: 18rem;
         position: absolute;
-    }
+    } */
     span#log {
         width: 5px;
         font-size: 2rem;
@@ -44,7 +41,7 @@ h1 {
         padding-top: 18rem;
         margin-left: 1rem;
     }
-    #navbar li {
+    /* #navbar li {
         list-style: none;
         border: 7px solid white;
         padding: -3px;
@@ -53,13 +50,13 @@ h1 {
         text-align: center;
         justify-content: right;
         margin-left: 6rem;
-    }
-    #navbar {
+    } */
+    /* #navbar {
         background-color: black;
         padding: 15px 5px;
         font-family: 'Playfair Display', serif;
         width: 24rem;
-    }
+    } */
     p {
         font-size: 25px;
         width: 24rem;
@@ -68,4 +65,47 @@ h1 {
         font-size: 3rem;
         width: 24rem;
     }
+    /* //////////////////////////// */
+    /* #navbar li {
+        list-style: none;
+        border: 7px;
+        width: 33rem;
+        text-align: center;
+        margin-left: 3rem;
+        height: 7rem;
+        margin-right: -3rem;
+        padding-top: 1rem;
+        font-size: 3rem;
+        font-family: cursive;
+    } */
+    /* .logoImage {
+        width: 4rem;
+        height: 7rem;
+        position: absolute;
+        padding-right: 13px;
+    }
+    .logoImage {
+        width: 4rem;
+        height: 7rem;
+        position: absolute;
+        padding-right: 13px;
+    }
+    #navbar {
+        background-color: black;
+        padding: 15px 5px;
+        font-family: 'Playfair Display', serif;
+        width: 82rem;
+        height: 16rem;
+    }
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -13px;
+        justify-content: center;
+        font-size: 40px;
+        border: 3px;
+        border-width: 10px;
+        width: 81rem;
+        margin-top: 3rem;
+    } */
 }

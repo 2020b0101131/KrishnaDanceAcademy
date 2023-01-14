@@ -20,3 +20,78 @@ h2 {
     margin-bottom: -36px;
     font-weight: unset;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    width: 82rem;
+    font-size: 8rem;
+}
+
+#footer {
+    height: 91px;
+    width: 82rem;
+}
+
+h5 {
+    font-size: 34px;
+    width: 81rem;
+}
+
+#navbar li {
+    list-style: none;
+    border: 7px solid;
+    width: 33rem;
+    text-align: center;
+    margin-left: 3rem;
+    height: 7rem;
+    margin-right: -3rem;
+    padding-top: 1rem;
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+.logoImage {
+    width: 4rem;
+    height: 7rem;
+    position: absolute;
+    padding-right: 13px;
+}
+
+@media only screen and (max-width: 425px) {
+    #serv {
+        width: 81rem;
+        font-size: 4rem;
+    }
+    /* .logoImage {
+        width: 4rem;
+        height: 7rem;
+        position: absolute;
+        padding-right: 13px;
+    }
+    #navbar {
+        background-color: black;
+        padding: 15px 5px;
+        font-family: 'Playfair Display', serif;
+        width: 82rem;
+        height: 16rem;
+    }
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -13px;
+        justify-content: center;
+        font-size: 40px;
+        border: 3px solid;
+        border-width: 10px;
+        width: 81rem;
+        margin-top: 3rem;
+    } */
+    h2 {
+        font-size: 5rem;
+        width: 80rem;
+        margin-bottom: 4rem;
+        margin-top: 5rem;
+    }
+}
