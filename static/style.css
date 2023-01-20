@@ -221,11 +221,10 @@
         }
     }
     
-    @media only screen and (max-width:425px) {
-        /* ///////////////////// */
+    @media only screen and (min-width: 150px) and (max-width:768px) {
         #navbar li {
             list-style: none;
-            border: 7px solid white;
+            border: 7px;
             padding: -3px;
             direction: flex;
             width: 11rem;
@@ -234,11 +233,19 @@
             margin-left: 19rem;
             font-size: 31px;
         }
+        .big {
+            font-size: 130px;
+            text-align: center;
+            margin-left: 35rem;
+            width: 92rem;
+            margin-top: 90rem;
+            font-variant: all-small-caps;
+        }
         #navbar {
             background-color: black;
-            padding: 15px 5px;
+            padding: 13px 5px;
             font-family: 'Playfair Display', serif;
-            width: 101rem;
+            width: 83rem;
             height: 15rem;
         }
         #navbar ul {
@@ -249,12 +256,12 @@
             font-size: 40px;
             border: 3px solid;
             border-width: 10px;
-            width: 100rem;
+            width: 72rem;
             padding-top: 4rem;
         }
         #navbar li {
             list-style: none;
-            border: 7px solid;
+            border: 7px;
             padding: -3px;
             direction: flex;
             width: 11rem;
@@ -283,7 +290,7 @@
         }
         #introSection {
             height: 66rem;
-            width: 101rem;
+            width: 83rem;
             background: center /cover no-repeat url(/static/bg2.jpg);
             color: white;
             align-items: center;
@@ -294,42 +301,18 @@
             padding-right: 587px;
             padding-bottom: 35px;
             margin-top: 0rem;
-            height: 125rem;
+            height: 113rem;
         }
-        #introSection {
-            height: 66rem;
-            width: 101rem;
-            background: center /cover no-repeat url(/static/bg2.jpg);
-            color: white;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            flex-direction: column;
-            font-size: 40px;
-            padding-right: 587px;
-            padding-bottom: 35px;
-            margin-top: 0rem;
-            height: 125rem;
+        .card {
+            width: 76rem;
+            height: 23rem;
+            margin-bottom: 85px;
+            border: 6px solid black;
         }
         #introSection div.small {
             font-size: 56px;
             padding-left: 35rem;
             width: 62rem;
-        }
-        h2#mission {
-            /* text-align: center; */
-            margin-bottom: 29px;
-            margin-top: 6px;
-            font-size: 7rem;
-            /* margin-left: 20rem; */
-            margin-left: 33rem;
-            width: 34rem;
-        }
-        .card {
-            width: 96rem;
-            height: 23rem;
-            margin-bottom: 85px;
-            border: 6px solid black;
         }
         h3 {
             font-size: 86px;
@@ -339,41 +322,44 @@
             padding-right: 68rem;
             height: 234px;
         }
+        h2#mission {
+            margin-bottom: 29px;
+            margin-top: 6px;
+            font-size: 7rem;
+            margin-left: 25rem;
+            width: 34rem;
+        }
         #l1 {
             font-size: 21px;
             position: absolute;
-            width: 57rem;
-            margin-left: -66rem;
-            font-size: 80px;
-            padding-top: 44px;
-        }
-        .logo2 {
-            height: 18rem;
-            margin-left: -40rem;
-            position: absolute;
-            margin-top: -5rem;
+            width: 79rem;
+            margin-left: -35rem;
+            font-size: 72px;
+            margin-top: -14rem;
         }
         #l2 {
             font-size: 66px;
             Width: 59rem;
             margin-left: -20rem;
         }
+        .logo2 {
+            height: 15rem;
+            margin-left: -37rem;
+            position: absolute;
+            margin-top: 0rem;
+        }
+        .logo3 {
+            height: 15rem;
+            margin-left: -46rem;
+            margin-top: -41px;
+        }
         #l3 {
             font-size: 67px;
-            width: 68rem;
+            width: 63rem;
             padding-top: 27px;
             margin-top: 0rem;
             position: absolute;
             margin-left: -17rem;
-        }
-        .logo3 {
-            height: 16rem;
-            margin-left: -52rem;
-            margin-top: -41px;
-        }
-        #sponsorsSection {
-            height: 118rem;
-            width: 100rem;
         }
         #sp1 {
             margin-top: 253px;
@@ -386,16 +372,20 @@
             margin-bottom: 4rem;
             height: 20rem;
         }
-        #spon {
-            font-size: 7rem;
-            margin-left: 38rem;
-            width: 25rem;
-            margin-top: -40px;
+        #sponsorsSection {
+            height: 118rem;
+            width: 80rem;
         }
         #footer {
             height: 140px;
-            width: 100rem;
+            width: 80rem;
             padding-top: 5rem;
+        }
+        #spon {
+            font-size: 7rem;
+            margin-left: 27rem;
+            width: 25rem;
+            margin-top: -40px;
         }
         h5 {
             font-size: 46px;
@@ -404,20 +394,12 @@
             font-size: 46px;
             margin-top: -4rem;
         }
-        .big {
-            font-size: 145px;
-            text-align: center;
-            margin-left: 35rem;
-            width: 94rem;
-            margin-top: 90rem;
-            font-variant: all-small-caps;
-        }
         #navbar li a {
             text-decoration: none;
-            padding: 4px 29px;
+            padding: 4px 0px;
             color: white;
             font-weight: bold;
             font-family: cursive;
-            font-size: 56px;
+            font-size: 3rem;
         }
     }
