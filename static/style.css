@@ -243,10 +243,46 @@
         }
         #navbar {
             background-color: black;
-            padding: 13px 5px;
+            padding: 13px 84px;
             font-family: 'Playfair Display', serif;
-            width: 83rem;
+            width: 87rem;
             height: 15rem;
+        }
+        .card {
+            width: 83rem;
+            height: 23rem;
+            margin-bottom: 85px;
+            border: 6px solid black;
+        }
+        #l1 {
+            font-size: 21px;
+            position: absolute;
+            width: 55rem;
+            margin-left: -65rem;
+            font-size: 72px;
+            margin-top: 1rem;
+        }
+        h2#mission {
+            margin-bottom: 29px;
+            margin-top: 6px;
+            font-size: 7rem;
+            margin-left: 27rem;
+            width: 34rem;
+        }
+        #introSection {
+            height: 66rem;
+            width: 87rem;
+            background: center /cover no-repeat url(/static/bg2.jpg);
+            color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            font-size: 40px;
+            padding-right: 587px;
+            padding-bottom: 35px;
+            margin-top: 0rem;
+            height: 113rem;
         }
         #navbar ul {
             display: flex;
@@ -256,7 +292,7 @@
             font-size: 40px;
             border: 3px solid;
             border-width: 10px;
-            width: 72rem;
+            width: 68rem;
             padding-top: 4rem;
         }
         #navbar li {
@@ -288,27 +324,6 @@
             padding-top: 4rem;
             margin-left: -3rem;
         }
-        #introSection {
-            height: 66rem;
-            width: 83rem;
-            background: center /cover no-repeat url(/static/bg2.jpg);
-            color: white;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            flex-direction: column;
-            font-size: 40px;
-            padding-right: 587px;
-            padding-bottom: 35px;
-            margin-top: 0rem;
-            height: 113rem;
-        }
-        .card {
-            width: 76rem;
-            height: 23rem;
-            margin-bottom: 85px;
-            border: 6px solid black;
-        }
         #introSection div.small {
             font-size: 56px;
             padding-left: 35rem;
@@ -321,21 +336,6 @@
         .logo1 {
             padding-right: 68rem;
             height: 234px;
-        }
-        h2#mission {
-            margin-bottom: 29px;
-            margin-top: 6px;
-            font-size: 7rem;
-            margin-left: 25rem;
-            width: 34rem;
-        }
-        #l1 {
-            font-size: 21px;
-            position: absolute;
-            width: 79rem;
-            margin-left: -35rem;
-            font-size: 72px;
-            margin-top: -14rem;
         }
         #l2 {
             font-size: 66px;
@@ -374,18 +374,18 @@
         }
         #sponsorsSection {
             height: 118rem;
-            width: 80rem;
-        }
-        #footer {
-            height: 140px;
-            width: 80rem;
-            padding-top: 5rem;
+            width: 87rem;
         }
         #spon {
             font-size: 7rem;
-            margin-left: 27rem;
+            margin-left: 30rem;
             width: 25rem;
             margin-top: -40px;
+        }
+        #footer {
+            height: 140px;
+            width: 87rem;
+            padding-top: 5rem;
         }
         h5 {
             font-size: 46px;
