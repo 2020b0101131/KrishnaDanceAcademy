@@ -245,13 +245,14 @@
             background-color: black;
             padding: 13px 84px;
             font-family: 'Playfair Display', serif;
-            width: 87rem;
+            width: 89rem;
             height: 15rem;
         }
         .card {
             width: 83rem;
             height: 23rem;
             margin-bottom: 85px;
+            margin-left: 4rem;
             border: 6px solid black;
         }
         #l1 {
@@ -266,12 +267,12 @@
             margin-bottom: 29px;
             margin-top: 6px;
             font-size: 7rem;
-            margin-left: 27rem;
+            margin-left: 29rem;
             width: 34rem;
         }
         #introSection {
             height: 66rem;
-            width: 87rem;
+            width: 89rem;
             background: center /cover no-repeat url(/static/bg2.jpg);
             color: white;
             align-items: center;
@@ -290,9 +291,11 @@
             margin-bottom: -14px;
             justify-content: center;
             font-size: 40px;
-            border: 3px solid;
-            border-width: 10px;
-            width: 68rem;
+            width: 81rem;
+            border: 8px solid gold;
+            margin-left: -1rem;
+            padding-right: 2rem;
+            padding-left: 1rem;
             padding-top: 4rem;
         }
         #navbar li {
@@ -305,9 +308,9 @@
             justify-content: right;
             margin-left: 19rem;
             font-size: 31px;
-            margin-left: 7rem;
+            margin-left: 4rem;
             font-size: 3rem;
-            margin-top: -1rem;
+            margin-top: 0rem;
         }
         .logoImage {
             margin-left: -4rem;
@@ -374,17 +377,17 @@
         }
         #sponsorsSection {
             height: 118rem;
-            width: 87rem;
+            width: 89rem;
         }
         #spon {
             font-size: 7rem;
-            margin-left: 30rem;
+            margin-left: 32rem;
             width: 25rem;
             margin-top: -40px;
         }
         #footer {
             height: 140px;
-            width: 87rem;
+            width: 89rem;
             padding-top: 5rem;
         }
         h5 {
