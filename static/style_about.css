@@ -27,11 +27,11 @@ h1 {
     }
     .img {
         display: block;
-        height: 38rem;
-        width: 74rem;
-        padding-left: 17rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        height: 70rem;
+        width: 85rem;
+        padding-left: 5rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
     span#log {
         width: 5px;

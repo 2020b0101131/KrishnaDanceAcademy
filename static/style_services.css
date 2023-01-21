@@ -43,7 +43,7 @@ h1 {
 }
 
 .logoImage {
-    width: 4rem;
+    width: 7rem;
     height: 7rem;
     position: absolute;
     padding-right: 13px;
@@ -52,11 +52,11 @@ h1 {
 @media only screen and (min-width: 150px) and (max-width:768px) {
     #serv {
         width: 81rem;
-        font-size: 4rem;
+        font-size: 6rem;
         list-style: none;
     }
     h2 {
-        font-size: 5rem;
+        font-size: 6rem;
         width: 87rem;
         margin-bottom: 4rem;
         margin-top: 5rem;
@@ -64,14 +64,15 @@ h1 {
     }
     h1 {
         width: 88rem;
-        padding-top: 2rem;
-        margin-bottom: -3rem;
+        padding-top: 6rem;
+        margin-bottom: 7rem;
+        font-size: 10rem;
     }
     #list {
         padding-left: 4rem;
         padding-bottom: 3rem;
     }
     #footer {
-        margin-top: 20rem;
+        margin-top: 25rem;
     }
 }
