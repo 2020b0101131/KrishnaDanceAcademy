@@ -3,12 +3,9 @@ const app = express();
 const PORT = process.env.PORT || 3030;
 
 //////////////////////
-// const express = require("express");
 const path = require("path");
-// const app = express();
 const mongoose = require('mongoose');
 const bodyparser = require("body-parser");
-//mongoose.connect('mongodb://localhost/contactDance');
 mongoose.connect('mongodb://127.0.0.1:27017/contact').then(() => {
     console.log("connected to database");
 })
@@ -22,7 +19,7 @@ const contactSchema = new mongoose.Schema({
     email: String,
     desc: String,
 });
-//var Contact = mongoose.model('Contact', contactSchema);
+
 const Contact = mongoose.model('Contact', contactSchema);
 
 
@@ -66,9 +63,10 @@ app.get('/classinfo', (req, res) => {
 app.post('/contact', (req, res) => {
     var myData = new Contact(req.body);
     myData.save().then(() => {
-        res.send("This item has been saved to the Database")
+        res.send("This item has been saved to the Database");
     }).catch(() => {
-        res.status(400).send("Thank You for Contacting Us")
+        res.status(400).send("Thank You for Contacting Us");
+
     })
 });
 
@@ -76,6 +74,3 @@ app.post('/contact', (req, res) => {
 app.listen(PORT, () => {
     console.log(`server started on port ${PORT}`);
 });
-// app.listen(port, () => {
-//     console.log(`The application started successfully on port ${port}`);
-// });

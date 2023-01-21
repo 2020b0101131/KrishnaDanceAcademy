@@ -31,28 +31,29 @@ button {
 
 @media only screen and (min-width: 150px) and (max-width:768px) {
     h1 {
-        font-size: 7rem;
+        font-size: 10rem;
         width: 88rem;
         padding-top: 12rem;
+        margin-bottom: 6rem;
     }
     .myInput {
-        width: 59rem;
-        height: 7rem;
+        width: 60rem;
+        height: 10rem;
         margin-left: 15rem;
-        font-size: 3rem;
+        font-size: 4rem;
         margin-top: 3rem;
     }
     button {
-        height: 5rem;
-        font-size: 2rem;
-        margin-top: 2rem;
+        height: 8rem;
+        font-size: 4rem;
+        margin-top: 8rem;
         margin-bottom: 3rem;
-        margin-left: 41rem;
+        margin-left: 37rem;
         font-weight: bold;
-        width: 9rem;
+        width: 17rem;
     }
     #footer {
-        margin-top: 15rem;
+        margin-top: 20rem;
     }
     .myForm {
         margin-top: 0rem;
