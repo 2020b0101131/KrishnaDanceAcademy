@@ -28,3 +28,33 @@ button {
     color: white;
     background-color: black;
 }
+
+@media only screen and (min-width: 150px) and (max-width:768px) {
+    h1 {
+        font-size: 7rem;
+        width: 88rem;
+        padding-top: 12rem;
+    }
+    .myInput {
+        width: 59rem;
+        height: 7rem;
+        margin-left: 15rem;
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+    button {
+        height: 5rem;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        margin-left: 41rem;
+        font-weight: bold;
+        width: 9rem;
+    }
+    #footer {
+        margin-top: 15rem;
+    }
+    .myForm {
+        margin-top: 0rem;
+    }
+}
