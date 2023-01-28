@@ -376,16 +376,14 @@ h5 {
         margin-top: 253px;
     }
     .spImage {
-        width: 91%;
-    }
-    .spImage {
-        width: 91%;
+        width: 42%;
         margin-bottom: 4rem;
-        height: 20rem;
+        height: 35rem;
     }
     #sponsorsSection {
-        height: 118rem;
+        height: 101rem;
         width: 90rem;
+        margin-top: 7rem;
     }
     #spon {
         font-size: 7rem;
