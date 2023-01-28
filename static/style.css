@@ -5,6 +5,14 @@
     padding: 0px;
 }
 
+#navbar li a {
+    text-decoration: none;
+    padding: 4px 83px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
 .logoImage {
     height: 24px;
     display: flex;
@@ -33,12 +41,13 @@
     list-style: none;
 }
 
-#navbar li a {
+
+/* #navbar li a {
     text-decoration: none;
     padding: 4px 29px;
     color: white;
     font-weight: bold;
-}
+} */
 
 #navbar li a :hover {
     color: black;
